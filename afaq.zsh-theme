@@ -23,5 +23,5 @@ function mygit() {
 function retcode() {}
 
 # alternate prompt with git & hg
-PROMPT=$'%{\e[0;31m%}%B┌──($(hostname -s) 🌐 $(ipconfig getifaddr en0 2>/dev/null || hostname -I | awk \'{print $1}\') ⏱ $(date "+%H:%M"))-[%{\e[1;34m%}%~%{\e[0;31m%}]\n└─λ %{\e[0m%}$(mygit)$(hg_prompt_info)$(virtualenv_prompt_info)%b'
+PROMPT=$'%{\e[0;31m%}%B┌──($(whoami)@$(hostname -s) 🌐 $(ipconfig getifaddr en0 2>/dev/null || hostname -I | awk \'{print $1}\') ⏱ $(date "+%H:%M"))-[%{\e[1;34m%}%~%{\e[0;31m%}]\n└─λ %{\e[0m%}$(mygit)$(hg_prompt_info)$(virtualenv_prompt_info)%b'
 PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
