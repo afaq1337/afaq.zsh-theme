@@ -12,10 +12,8 @@ A bold, minimal, and hacker-style ZSH theme tailored for penetration testers and
 - Python virtualenv support
 
 ## 📸 Prompt Preview
-```
-┌──(your-host 🌐 192.168.1.5)-[/home/user/project ⏱ 14:35]
-└─λ
-```
+![zsh](https://github.com/user-attachments/assets/a532a0df-080d-45d5-bdd6-f75d507d770e)
+
 
 ## 🛠 Installation
 
